@@ -75,8 +75,6 @@ If you want to validate the authenticity of the file, you can do so on your syst
 - Mac (untested)
 - Python 3.8+
 
-RePlay MP3 Player is developed and tested on Windows with Python 3.11. While it may work on Mac and Linux, these platforms are untested, and compatibility cannot be guaranteed. The application is expected to work with versions of Python before or after 3.11, but this has not been extensively tested.
-
 ## License
 
 This project is licensed under the GNU General Public License version 3 (GPL-3.0). For more information, see the [LICENSE](LICENSE) file in this repository or visit the [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.en.html) webpage.
