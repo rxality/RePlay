@@ -1089,7 +1089,7 @@ class Player(tkinter.Tk):
         self.settings_button = tkinter.Button(settings_button_canvas, name="settings", command=self.open_settings, image=self.LIGHT_MODE_SETTINGS if self.mode == "light_mode" else self.DARK_MODE_SETTINGS, relief="flat")
         self.settings_button.grid(row=0, column=1, padx=(0, 8), pady=(0, 192))
 
-        self.website_button = tkinter.Button(settings_button_canvas, name="browser", image=self.LIGHT_MODE_BROWSER if self.mode == "light_mode" else self.DARK_MODE_BROWSER, command=lambda: webbrowser.open_new(r"https://tendo.cc/"))
+        self.website_button = tkinter.Button(settings_button_canvas, name="browser", image=self.LIGHT_MODE_BROWSER if self.mode == "light_mode" else self.DARK_MODE_BROWSER, command=lambda: webbrowser.open_new(r"https://github.com/rxality/RePlay"))
         self.website_button.grid(row=0, column=0, padx=(0, 24), pady=(0, 192))
 
         # ------------------------------------------ #
